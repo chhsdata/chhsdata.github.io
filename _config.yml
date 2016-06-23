@@ -1,0 +1,13 @@
+# Setup
+title:            chhsdata.github.io
+tagline:          'Open Data, Open Source'
+description:      'California Health & Human Services Agency'
+url:              https://chhsdata.github.io
+
+author:
+  name:           'California Health & Human Services Agency'
+  url:            https://github.com/chhsdata/
+
+# Custom vars
+github:
+  repo:           https://github.com/chhsdata/chhsdata.github.io

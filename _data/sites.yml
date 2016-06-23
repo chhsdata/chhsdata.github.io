@@ -1,0 +1,8 @@
+- title: Open Data Handbook
+  description: The CHHS Open Data Handbook provides guidelines to identify, review, prioritize and prepare publishable CHHS data for access by the public via the CHHS Open Data Portal.
+  url: https://chhsdata.github.io/opendatahandbook/
+  github: https://github.com/chhsdata/opendatahandbook
+- title: Data Playbook
+  description: A Department's toolkit to utilizing data. Plays contains data strategies, approaches and actions a Department may use to administer programs and address policy issues.
+  url: https://chhsdata.github.io/dataplaybook
+  github: https://github.com/chhsdata/dataplaybook

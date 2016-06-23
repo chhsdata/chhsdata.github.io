@@ -1,7 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h2><a href="https://chhsdata.github.io/dataplaybook">Data Playbook</a></h2>
-    <h2><a href="https://chhsdata.github.io/opendatahandbook">Open Data Handbook</a></h2>
-  </body>
-</html>
+---
+layout: default
+---
+
+<h2>Our Products</h2>
+<p>Read the content or fork our code.</p>
+
+<div class="themes">
+  {% for site in site.data.sites %}
+  <div class="theme">
+    <h3>
+      <a href="{{ site.url }}">{{ site.title }}</a>
+    </h3>
+    {{ site.description }}
+    <p>
+      <a href="{{ site.url }}" class="btn">Website</a>
+      <a href="{{ site.github }}" class="btn">GitHub</a>
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
